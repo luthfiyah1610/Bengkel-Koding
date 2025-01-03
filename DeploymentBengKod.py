@@ -112,8 +112,8 @@ ax.set_title('Korelasi Heatmap untuk Data Kualitas Air')
 st.pyplot(fig)
 
 models = ['Naive Bayes', 'Decision Tree', 'Random Forest']
-initial_accuracies = [63.10, 57.80, 67.80]  # Ganti dengan data akurasi awal Anda
-tuned_accuracies = [37.20, 62.80, 37.20]  # Ganti dengan data akurasi setelah evaluasi
+initial_accuracies = [63.60, 56.40, 68.90]  # Ganti dengan data akurasi awal Anda
+tuned_accuracies = [37.20, 37.20, 37.20]  # Ganti dengan data akurasi setelah evaluasi
 
 # Membuat visualisasi perbandingan akurasi awal
 st.header("Perbandingan Akurasi Awal")
