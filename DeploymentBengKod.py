@@ -145,9 +145,9 @@ def plot_confusion_matrix(cm, title):
 st.subheader("Visualisasi Confusion Matrix")
 
 # Data confusion matrix sebelum normalisasi (ganti dengan data Anda)
-cm_nb = [[361, 51], [191, 53]]
-cm_dtc = [[255, 157], [120, 124]]
-cm_rfc = [[353, 59], [152, 92]]
+cm_nb = [[547, 70], [288, 78]]
+cm_dtc = [[374, 243], [186, 180]]
+cm_rfc = [[547, 70], [236, 130]]
 
 # Pilihan model
 model_choice = st.selectbox("Pilih Model:", ["Naive Bayes", "Decision Tree", "Random Forest"])
