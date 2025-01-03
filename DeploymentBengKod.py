@@ -38,9 +38,9 @@ st.title("Prediksi Kualitas Air")
 st.write("Pilih Model yang akan digunakan untuk memprediksi kelayakan air minum")
 # Muat semua model
 models = {
-    "Naive Bayes": pickle.load(open("model_naive_bayes.pkl", "rb")),  # Ganti dengan nama file model Naive Bayes
-    "Decision Tree": pickle.load(open("model_decision_tree.pkl", "rb")),  # Ganti dengan nama file model Decision Tree
-    "Random Forest": pickle.load(open("model_random_forest.pkl", "rb"))  # Ganti dengan nama file model Random Forest
+    "Naive Bayes": pickle.load(open("naive_bayes_model.pkl", "rb")),  # Ganti dengan nama file model Naive Bayes
+    "Decision Tree": pickle.load(open("decision_tree_model.pkl", "rb")),  # Ganti dengan nama file model Decision Tree
+    "Random Forest": pickle.load(open("random_forest_model.pkl", "rb"))  # Ganti dengan nama file model Random Forest
 }
 
 # Pilihan model
